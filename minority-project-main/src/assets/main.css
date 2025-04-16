@@ -1,0 +1,32 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Serif SC', serif;
+    background-color: #f9f4e6;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://www.transparenttextures.com/patterns/rice-paper.png');
+  }
+  
+  /* 顶部装饰 */
+  .top-decoration {
+    height: 10px;
+    background: linear-gradient(90deg, #8B5A2B, #D2B48C, #8B5A2B);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    /* 响应式样式 */
+  }

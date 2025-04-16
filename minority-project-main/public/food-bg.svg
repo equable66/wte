@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#006400;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#32CD32;stop-opacity:0.6" />
+    </linearGradient>
+    <pattern id="pattern3" width="70" height="70" patternUnits="userSpaceOnUse" patternTransform="rotate(60)">
+      <path d="M0,0 L20,0 L20,20 L0,20 Z" fill="none" stroke="rgba(180,255,180,0.2)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad3)"/>
+  <rect width="100%" height="100%" fill="url(#pattern3)"/>
+  <g opacity="0.2">
+    <circle cx="500" cy="300" r="200" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="1400" cy="800" r="250" fill="rgba(255,255,255,0.05)"/>
+  </g>
+  <g opacity="0.3">
+    <path d="M300,200 C400,300 500,200 600,300 S700,200 800,300" stroke="#90EE90" stroke-width="3" fill="none"/>
+    <path d="M1100,800 C1200,700 1300,800 1400,700 S1500,800 1600,700" stroke="#90EE90" stroke-width="3" fill="none"/>
+  </g>
+  <g opacity="0.4">
+    <path d="M400,600 L450,650 L400,700 L350,650 Z" fill="#90EE90"/>
+    <path d="M1500,400 L1550,450 L1500,500 L1450,450 Z" fill="#90EE90"/>
+    <path d="M960,960 L1010,1010 L960,1060 L910,1010 Z" fill="#90EE90"/>
+  </g>
+</svg>
